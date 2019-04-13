@@ -1,40 +1,15 @@
-# MYSQL_DB = {
-# 'host' : '120.92.79.194',
-#   'user': 'crawler',
-#   'password' : 'Cradmin@567',
-#   'dbname' : 'crawler',
-#   'port' : 3306
-# }
-
-# REDIS = {
-#     'url': None,
-# #     'host': 'localhost',
-#     'host': '120.92.105.253',
-#     'port': 56789,
-#     'password': '12345678@redis.com'
-#     }
-
 MYSQL_DB = {
-'host' : '47.105.103.8',
-  'user': 'root',
-  'password' : 'Mysql@1234',
-  'dbname' : 'ali_crawler',
-  'port' : 3306
+
 }
 
 #REDIS = {
 #     'url': None,
-# #     'host': 'localhost',
-#     'host': '47.105.103.8',
-#     'port': 56789,
-#     'password': '12345678'
+# #     'host': '',
+#     'host': '',
+#     'port': ,
+#     'password': ''
 #     }
 
-REDIS = {
- #   'url': None,
-    'host': '172.181.217.58',
-    'port': 6379,
-    }
 
 BXS_COOKIE_POOL = 'bxs_cookies' # HASH
 MOBILE_UA_POOL = 'mobile_ua'    # LIST
